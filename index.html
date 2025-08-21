@@ -3,7 +3,13 @@
 
 <head>
   <title>Image Uploader Test</title>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/eso-uploader-test/coi-serviceworker.js');
+    }
+  </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"
+    crossorigin="anonymous"></script>
   <style>
     html {
       height: 100%;

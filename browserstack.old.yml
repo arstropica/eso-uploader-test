@@ -4919,6 +4919,5 @@ projectName: Uploader Test
 # Debug goodies
 consoleLogs: verbose
 networkLogs: true
-parallelsPerPlatform: 2
+parallelsPerPlatform: 1
 video: false
-accessibility: false

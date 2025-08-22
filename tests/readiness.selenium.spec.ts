@@ -109,12 +109,14 @@ describe("Uploader readiness (Selenium via BrowserStack SDK)", () => {
       15000
     );
     await driver.wait(until.elementIsVisible(ta), 5000);
+    await new Promise(resolve => setTimeout(resolve, 10000));
 
     let taOutput =
       (await ta.getAttribute("value")) || (await ta.getText()) || "";
     taOutput = taOutput.trim();
 
-    sendBrowserStackLog(driver, taOutput, "info");
+    // sendBrowserStackLog(driver, taOutput, "info");
+    console.log(`Textarea output:\n${taOutput}`);
 
     expect(taOutput.length).toBeGreaterThan(0);
 

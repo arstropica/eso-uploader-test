@@ -46,7 +46,7 @@ async function bsExecutor(page: any, payload: Record<string, unknown>) {
   await page.evaluate(() => {}, cmd);
 }
 
-describe.skip("Uploader readiness (Selenium via BrowserStack SDK)", () => {
+describe.skip("Uploader readiness (Playwright via BrowserStack SDK)", () => {
   test("Uploader readiness is classified and reported to BrowserStack", async ({
     page,
     browserName: _browserName,

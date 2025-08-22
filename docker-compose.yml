@@ -1,0 +1,17 @@
+services:
+  tests:
+    build: .
+    image: unraid/bsdk-tests:latest
+    environment:
+      BROWSERSTACK_USERNAME: ${BROWSERSTACK_USERNAME}
+      BROWSERSTACK_ACCESS_KEY: ${BROWSERSTACK_ACCESS_KEY}
+      BROWSERSTACK_LOCAL: "false"
+      BROWSERSTACK_BUILD_SUFFIX: "${HOSTNAME:-unraid}"
+    volumes:
+      - ./:/app
+    # Optional: limit resources
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8g

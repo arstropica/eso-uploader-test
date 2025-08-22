@@ -64,6 +64,31 @@ async function getConsoleLogStrings(driver: WebDriver): Promise<string[]> {
   }
 }
 
+/**
+ * Sends a log string to BrowserStack's dashboard.
+ *
+ * @param driver - The active Selenium WebDriver instance provided by the BrowserStack SDK
+ * @param message - The log message to send
+ * @param level - Log level: "info" | "warn" | "error"
+ */
+export async function sendBrowserStackLog(
+  driver: WebDriver,
+  message: string,
+  level: "info" | "warn" | "error" = "info"
+): Promise<void> {
+  const payload = {
+    action: "annotate",
+    arguments: {
+      data: message,
+      level,
+    },
+  };
+
+  await driver.executeScript(
+    `browserstack_executor: ${JSON.stringify(payload)}`
+  );
+}
+
 describe("Uploader readiness (Selenium via BrowserStack SDK)", () => {
   let driver: WebDriver;
 
@@ -88,6 +113,8 @@ describe("Uploader readiness (Selenium via BrowserStack SDK)", () => {
     let taOutput =
       (await ta.getAttribute("value")) || (await ta.getText()) || "";
     taOutput = taOutput.trim();
+
+    sendBrowserStackLog(driver, taOutput, "info");
 
     expect(taOutput.length).toBeGreaterThan(0);
 

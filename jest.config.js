@@ -1,9 +1,14 @@
 module.exports = {
+  preset: "ts-jest",
+  testEnvironment: "node",
   coverageProvider: "v8",
   maxConcurrency: 5,
   maxWorkers: 5,
   roots: ["tests"],
   moduleFileExtensions: ["js", "ts"],
+  moduleNameMapper: {
+    "^@shared/(.*)$": "<rootDir>/shared/$1"
+  },
   transform: {
     "^.+\\.(t|j)s$": "ts-jest",
   },

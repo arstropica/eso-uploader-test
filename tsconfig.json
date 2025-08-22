@@ -19,9 +19,14 @@
     "traceResolution": true,
     //"lib": ["DOM", "ES2020", "DOM.Iterable"],
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["shared/*"]
+    }
   },
   "include": [
+    "shared/**/*.ts",
     "src/**/*.ts",
     "tests/**/*.ts",
     "**/*.d.ts",

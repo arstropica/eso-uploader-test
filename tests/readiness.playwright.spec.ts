@@ -1,0 +1,153 @@
+// tests/readiness.playwright.spec.ts
+import { test, expect } from "@playwright/test";
+
+type ReadinessState = "NO_ERROR" | "HARMLESS_ERROR" | "WITH_ERROR" | "NO_OUTPUT";
+
+const TEST_URL =
+  process.env.TEST_URL ||
+  "https://akin.estatesales.org/xbrowser/index-test.html";
+const TEXTAREA_SELECTOR = "#readiness";
+
+/** Classify based on combined textarea + console text */
+function classifyReadiness(fullText: string): ReadinessState {
+  const t = fullText.toLowerCase();
+
+  if (t.length == 0) {
+    return "NO_OUTPUT";
+  }
+
+  // WITH_ERROR: hard VIPS init failure / explicit [error]
+  if (
+    /\[error\]/i.test(fullText) ||
+    /failed to initialize vips|your browser does not support vips/i.test(t)
+  ) {
+    return "WITH_ERROR";
+  }
+
+  // HARMLESS_ERROR: structuredClone fallback noise but uploader continues
+  if (
+    /structuredclone failed/i.test(
+      fullText
+    ) ||
+    /datacloneerror/i.test(t)
+  ) {
+    return "HARMLESS_ERROR";
+  }
+
+  // Otherwise assume clean init
+  return "NO_ERROR";
+}
+
+/** Helper: push metadata to BrowserStack Automate */
+async function bsExecutor(page: any, payload: Record<string, unknown>) {
+  // BrowserStack intercepts strings that start with "browserstack_executor:"
+  const cmd = `browserstack_executor: ${JSON.stringify(payload)}`;
+  // @ts-ignore - sending a special command string per BrowserStack docs
+  await page.evaluate(() => {}, cmd);
+}
+
+describe.skip("Uploader readiness (Selenium via BrowserStack SDK)", () => {
+  test("Uploader readiness is classified and reported to BrowserStack", async ({
+    page,
+    browserName: _browserName,
+  }: {
+    page: any;
+    browserName: string;
+  }) => {
+    const consoleMessages: string[] = [];
+    page.on("console", (m: any) =>
+      consoleMessages.push(`[${m.type()}] ${m.text()}`)
+    );
+
+    await page.goto(TEST_URL, { waitUntil: "domcontentloaded" });
+
+    const ta = page.locator(TEXTAREA_SELECTOR);
+    await expect(ta).toBeVisible();
+
+    const taValue = (
+      (await ta
+        .inputValue()
+        .catch(async () => (await ta.textContent()) || "")) || ""
+    ).trim();
+
+    // Basic sanity check that something was written
+    expect(
+      taValue.length,
+      "No readiness text found in textarea"
+    ).toBeGreaterThan(0);
+
+    // Combine textarea + console for robust classification
+    const combined = [taValue, ...consoleMessages].join("\n");
+    const state = classifyReadiness(combined);
+
+    // Leave a breadcrumb in Playwright report
+    test
+      .info()
+      .annotations.push({ type: "readiness-state", description: state });
+
+    // Make BrowserStack session easier to scan: include state in the session name
+    await bsExecutor(page, {
+      action: "setSessionName",
+      arguments: { name: `${test.info().project.name} — ${state}` },
+    });
+
+    // Report status back to BrowserStack (and decide test pass/fail)
+    if (state === "WITH_ERROR") {
+      await bsExecutor(page, {
+        action: "setSessionStatus",
+        arguments: {
+          status: "failed",
+          reason:
+            "VIPS initialization failed / error detected in readiness logs",
+        },
+      });
+      // Fail the Playwright test so CI signals red
+      expect(state).not.toBe("WITH_ERROR");
+    } else if (state === "NO_OUTPUT") {
+      await bsExecutor(page, {
+        action: "setSessionStatus",
+        arguments: {
+          status: "failed",
+          reason:
+            "No Output",
+        },
+      });
+    } else if (state === "HARMLESS_ERROR") {
+      await bsExecutor(page, {
+        action: "setSessionStatus",
+        arguments: {
+          status: "passed",
+          reason:
+            "Harmless structuredClone fallback observed; uploader otherwise ready",
+        },
+      });
+    } else {
+      await bsExecutor(page, {
+        action: "setSessionStatus",
+        arguments: {
+          status: "passed",
+          reason: "No errors detected in readiness output",
+        },
+      });
+    }
+
+    // Optional: assert expected positive signals (helps catch regressions)
+    expect(combined).toMatch(
+      /mimeType\.uploader|Registering plugin for MIME type/i
+    );
+
+    // Attach the raw artifacts to the Playwright report for quick triage
+    await test
+      .info()
+      .attach("readiness-textarea.txt", {
+        body: taValue,
+        contentType: "text/plain",
+      });
+    await test
+      .info()
+      .attach("console.log.txt", {
+        body: consoleMessages.join("\n"),
+        contentType: "text/plain",
+      });
+  });
+});

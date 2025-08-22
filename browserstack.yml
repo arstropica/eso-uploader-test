@@ -1,0 +1,4923 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: 85
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 88
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: 88
+  - os: Windows
+    osVersion: 11
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Opera
+    browserVersion: 74
+  - os: Windows
+    osVersion: 11
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Yandex
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 85
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 88
+  - os: Windows
+    osVersion: 10
+    browserName: IE
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: 88
+  - os: Windows
+    osVersion: 10
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Opera
+    browserVersion: 74
+  - os: Windows
+    osVersion: 10
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Yandex
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Firefox
+    browserVersion: 85
+  - os: Windows
+    osVersion: 8.1
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Chrome
+    browserVersion: 88
+  - os: Windows
+    osVersion: 8.1
+    browserName: IE
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: IE
+    browserVersion: 11
+  - os: Windows
+    osVersion: 8.1
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Edge
+    browserVersion: 88
+  - os: Windows
+    osVersion: 8.1
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Opera
+    browserVersion: 74
+  - os: Windows
+    osVersion: 8.1
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8.1
+    browserName: Yandex
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Firefox
+    browserVersion: 85
+  - os: Windows
+    osVersion: 8
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Chrome
+    browserVersion: 88
+  - os: Windows
+    osVersion: 8
+    browserName: IE
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Edge
+    browserVersion: 88
+  - os: Windows
+    osVersion: 8
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Opera
+    browserVersion: 74
+  - os: Windows
+    osVersion: 8
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: 8
+    browserName: Yandex
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Firefox
+    browserVersion: 85
+  - os: Windows
+    osVersion: 7
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Chrome
+    browserVersion: 88
+  - os: Windows
+    osVersion: 7
+    browserName: IE
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Edge
+    browserVersion: 88
+  - os: Windows
+    osVersion: 7
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Opera
+    browserVersion: 74
+  - os: Windows
+    osVersion: 7
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: 7
+    browserName: Yandex
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: IE
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: Opera
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: XP
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: mactho
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: mactho
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: mactho
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: mactho
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: mactho
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: mactho
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: mactho
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: mactho
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: mactho
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Ventura
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Ventura
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Ventura
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Ventura
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Monterey
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Monterey
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Monterey
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Catalina
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Catalina
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Catalina
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Catalina
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Catalina
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Catalina
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Catalina
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Catalina
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Catalina
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Mojave
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Mojave
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Mojave
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Mojave
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mojave
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: High Sierra
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Firefox
+    browserVersion: 85
+  - os: OS X
+    osVersion: Sierra
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sierra
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Edge
+    browserVersion: 88
+  - os: OS X
+    osVersion: Sierra
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: Sierra
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Chrome
+    browserVersion: 88
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Opera
+    browserVersion: 74
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: El Capitan
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: Yosemite
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Yosemite
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Yosemite
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Yosemite
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Yosemite
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mavericks
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mavericks
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mavericks
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mavericks
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mavericks
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mountain Lion
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mountain Lion
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mountain Lion
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mountain Lion
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Mountain Lion
+    browserName: Yandex
+    browserVersion: latest
+  - os: OS X
+    osVersion: Lion
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Lion
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Lion
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Lion
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Snow Leopard
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Snow Leopard
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Snow Leopard
+    browserName: Opera
+    browserVersion: latest
+  - os: OS X
+    osVersion: Snow Leopard
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 7
+    osVersion: 16.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 7
+    osVersion: 16.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 7
+    osVersion: 16.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 7
+    osVersion: 16.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 7
+    osVersion: 16.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25 Ultra
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25 Ultra
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25 Ultra
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25 Ultra
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S25 Ultra
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A16 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A16 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A16 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A16 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A16 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 6
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 6
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 6
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 6
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 6
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24 Ultra
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24 Ultra
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24 Ultra
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24 Ultra
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S24 Ultra
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A35
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A35
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A35
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A35
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A35
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 5
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 5
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 5
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 5
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Z Fold 5
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23 Ultra
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23 Ultra
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23 Ultra
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23 Ultra
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S23 Ultra
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A34
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A34
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A34
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A34
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A34
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Ultra
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Ultra
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Ultra
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Ultra
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Ultra
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Plus
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Plus
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Plus
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Plus
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S22 Plus
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Ultra
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Ultra
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Ultra
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Ultra
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Ultra
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Plus
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Plus
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Plus
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Plus
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S21 Plus
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A52
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M32
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M32
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M32
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M32
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M32
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M52
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy M52
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S20
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A51
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A51
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A51
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A51
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A51
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A11
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A11
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A11
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A11
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A11
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 20
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 20
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S10
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A10
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy A10
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S9
+    osVersion: 8.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S9
+    osVersion: 8.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S9
+    osVersion: 8.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S9
+    osVersion: 8.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S9
+    osVersion: 8.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S5 Mini
+    osVersion: 4.4
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S5 Mini
+    osVersion: 4.4
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S5 Mini
+    osVersion: 4.4
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S5 Mini
+    osVersion: 4.4
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S5 Mini
+    osVersion: 4.4
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S3
+    osVersion: 4.1
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S3
+    osVersion: 4.1
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S3
+    osVersion: 4.1
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S3
+    osVersion: 4.1
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S3
+    osVersion: 4.1
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 2
+    osVersion: 4.1
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 2
+    osVersion: 4.1
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 2
+    osVersion: 4.1
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 2
+    osVersion: 4.1
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 2
+    osVersion: 4.1
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S2
+    osVersion: 2.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S2
+    osVersion: 2.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S2
+    osVersion: 2.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S2
+    osVersion: 2.3
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S2
+    osVersion: 2.3
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note
+    osVersion: 2.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note
+    osVersion: 2.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note
+    osVersion: 2.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note
+    osVersion: 2.3
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note
+    osVersion: 2.3
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S
+    osVersion: 2.2
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S
+    osVersion: 2.2
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S
+    osVersion: 2.2
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S
+    osVersion: 2.2
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy S
+    osVersion: 2.2
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S10 Plus
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S10 Plus
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S10 Plus
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S10 Plus
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S10 Plus
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab A9 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab A9 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab A9 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab A9 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab A9 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S9
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S9
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S9
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S9
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S9
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S8
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S8
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S8
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S8
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S8
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab S7
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Note 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab 2 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab 2 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab 2 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab 2 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Galaxy Tab 2 10.1
+    osVersion: 4.0
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 16 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 16 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 16 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 16 Beta
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 16 Beta
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6a
+    osVersion: 15 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6a
+    osVersion: 15 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6a
+    osVersion: 15 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6a
+    osVersion: 15 Beta
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6a
+    osVersion: 15 Beta
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro XL
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro XL
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro XL
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro XL
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro XL
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 9 Pro
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8 Pro
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8 Pro
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8 Pro
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8 Pro
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 8 Pro
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 7 Pro
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 6 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 5
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 5
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 5
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 5
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 5
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 4 XL
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 4 XL
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 4 XL
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 4 XL
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 4 XL
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 3
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 3
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 3
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 3
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Pixel 3
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 5
+    osVersion: 5.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 5
+    osVersion: 5.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 5
+    osVersion: 5.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 5
+    osVersion: 5.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 5
+    osVersion: 5.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus
+    osVersion: 4.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus
+    osVersion: 4.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus
+    osVersion: 4.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus
+    osVersion: 4.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus
+    osVersion: 4.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 9
+    osVersion: 5.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 9
+    osVersion: 5.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 9
+    osVersion: 5.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 9
+    osVersion: 5.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 9
+    osVersion: 5.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: T4x 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: T4x 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: T4x 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: T4x 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: T4x 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: V30
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: V30
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: V30
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: V30
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: V30
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y100
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y100
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y100
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y100
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y100
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y22
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y22
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y21
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: V21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: V21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: V21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: V21
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: V21
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y50
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y50
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y50
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y50
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Y50
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: F29
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: F29
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: F29
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: F29
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: F29
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 8T 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 8T 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 8T 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 8T 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 8T 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: A78
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: A78
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: A78
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: A78
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: A78
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: A96
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 6
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 6
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 6
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 6
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 6
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 3 Pro
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 3 Pro
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 3 Pro
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 3 Pro
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Reno 3 Pro
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Nexus 4
+    osVersion: 4.2
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 13R
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 13R
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 13R
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 13R
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 13R
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12R
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12R
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12R
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12R
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12R
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11R
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11R
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11R
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11R
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11R
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 9
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 9
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 9
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 9
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 9
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 14 Pro 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 14 Pro 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 14 Pro 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 14 Pro 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 14 Pro 5G
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 13 Pro 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 13 Pro 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 13 Pro 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 13 Pro 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 13 Pro 5G
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 4G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 4G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 4G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 4G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 4G
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 12 Pro
+    osVersion: 12.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 11
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 11
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 11
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 11
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 11
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 8
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 8
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 8
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 8
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Redmi Note 8
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 60 Fusion
+    osVersion: 15.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 60 Fusion
+    osVersion: 15.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 60 Fusion
+    osVersion: 15.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 60 Fusion
+    osVersion: 15.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 60 Fusion
+    osVersion: 15.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 50 Fusion
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 50 Fusion
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 50 Fusion
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 50 Fusion
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 50 Fusion
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 40 Neo
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 40 Neo
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 40 Neo
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 40 Neo
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Edge 40 Neo
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G71 5G
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G71 5G
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G71 5G
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G71 5G
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G71 5G
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G9 Play
+    osVersion: 10.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G9 Play
+    osVersion: 10.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G9 Play
+    osVersion: 10.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G9 Play
+    osVersion: 10.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G9 Play
+    osVersion: 10.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G7 Play
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G7 Play
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G7 Play
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G7 Play
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Moto G7 Play
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: false
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: false
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: P30
+    osVersion: 9.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: P30
+    osVersion: 9.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: P30
+    osVersion: 9.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: P30
+    osVersion: 9.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: P30
+    osVersion: 9.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 12 Plus
+    osVersion: 14.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11X 5G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11X 5G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11X 5G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11X 5G
+    osVersion: 13.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 11X 5G
+    osVersion: 13.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 11.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 11.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 11.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 11.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: 8
+    osVersion: 11.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Razr
+    osVersion: 4.0
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: true
+    browserName: Samsung Internet
+    browserVersion: latest
+  - platformName: android
+    deviceName: Droid Razr
+    osVersion: 2.3
+    realMobile: true
+    browserName: UC Browser
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.6
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.6
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.6
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.5
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.5
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18.5
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Plus
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Plus
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Plus
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16e
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16e
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 16e
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13 Pro Max
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Plus
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Plus
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Plus
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro Max
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro Max
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro Max
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 15
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 13
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12 Pro
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 12
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro Max
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro Max
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro Max
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Plus
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Plus
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Plus
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14 Pro
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPhone 14
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 5
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 5
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 5
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 26 Beta
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2021
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2021
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2021
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 18
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 18
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 13 2025
+    osVersion: 18
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 6
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 6
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 6
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2021
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2021
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2021
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 13 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 13 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 13 2024
+    osVersion: 17
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2022
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 10th
+    osVersion: 16
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 10th
+    osVersion: 16
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 10th
+    osVersion: 16
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2021
+    osVersion: 15
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2021
+    osVersion: 15
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2021
+    osVersion: 15
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 15
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 15
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 9th
+    osVersion: 15
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 4
+    osVersion: 14
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 4
+    osVersion: 14
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 4
+    osVersion: 14
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 14
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 14
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 8th
+    osVersion: 14
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 14
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 14
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2020
+    osVersion: 14
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 13
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 13
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 11 2020
+    osVersion: 13
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2018
+    osVersion: 12
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2018
+    osVersion: 12
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro 12.9 2018
+    osVersion: 12
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 6th
+    osVersion: 12
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 6th
+    osVersion: 12
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 6th
+    osVersion: 12
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro (9.7 inch)
+    osVersion: 10.3
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro (9.7 inch)
+    osVersion: 10.3
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro (9.7 inch)
+    osVersion: 10.3
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 4
+    osVersion: 9.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 4
+    osVersion: 9.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 4
+    osVersion: 9.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 2
+    osVersion: 9.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 2
+    osVersion: 9.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air 2
+    osVersion: 9.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro
+    osVersion: 9.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro
+    osVersion: 9.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Pro
+    osVersion: 9.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2
+    osVersion: 8.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2
+    osVersion: 8.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini 2
+    osVersion: 8.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air
+    osVersion: 8.3
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air
+    osVersion: 8.3
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Air
+    osVersion: 8.3
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini
+    osVersion: 7
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini
+    osVersion: 7
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad Mini
+    osVersion: 7
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd (6.0)
+    osVersion: 6
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd (6.0)
+    osVersion: 6
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd (6.0)
+    osVersion: 6
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd
+    osVersion: 5.1
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd
+    osVersion: 5.1
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 3rd
+    osVersion: 5.1
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2 (5.0)
+    osVersion: 5
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2 (5.0)
+    osVersion: 5
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2 (5.0)
+    osVersion: 5
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2
+    osVersion: 4.3.2
+    realMobile: false
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2
+    osVersion: 4.3.2
+    realMobile: false
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad 2
+    osVersion: 4.3.2
+    realMobile: false
+    browserName: Safari
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad
+    osVersion: 3.2
+    realMobile: true
+    browserName: Chrome
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad
+    osVersion: 3.2
+    realMobile: true
+    browserName: Firefox
+    browserVersion: latest
+  - platformName: ios
+    deviceName: iPad
+    osVersion: 3.2
+    realMobile: true
+    browserName: Safari
+    browserVersion: latest
+
+parallels: 8
+buildName: Readiness Matrix
+projectName: Uploader Test
+# If your app is private/dev:
+# browserstackLocal: true
+# localIdentifier: dev-tunnel
+
+# Debug goodies
+consoleLogs: verbose
+networkLogs: true
+parallelsPerPlatform: 1
+video: false

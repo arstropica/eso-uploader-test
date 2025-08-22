@@ -1,0 +1,48 @@
+{
+  "name": "eso-uploader-test",
+  "version": "1.0.0",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@playwright/test": "^1.55.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^20.12.13",
+    "@types/requirejs": "^2.1.37",
+    "@types/selenium-webdriver": "^4.1.28",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "browserstack-node-sdk": "latest",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.14.0",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^30.0.4",
+    "mocha": "^11.7.1",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.1.4",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^7.13.0"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.4.8",
+    "dotenv": "^16.0.0",
+    "selenium-webdriver": "4.1.2"
+  },
+  "scripts": {
+    "sample-test": "browserstack-node-sdk jest src/sample.test.js",
+    "sample-local-test": "browserstack-node-sdk jest src/sample-local.test.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

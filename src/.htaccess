@@ -1,0 +1,12 @@
+<IfModule mod_headers.c>
+  # Mark requests for specific files
+  SetEnvIfNoCase Request_URI ".*index-test\.html$" NEED_HEADERS
+  SetEnvIfNoCase Request_URI ".*jquery\.image_uploader\.min\.js$" NEED_HEADERS
+  SetEnvIfNoCase Request_URI ".*jquery\.image_uploader\.min\.map$" NEED_HEADERS
+
+  # Apply headers if the env var is set
+  Header always set Cross-Origin-Opener-Policy "same-origin" env=NEED_HEADERS
+  Header always set Cross-Origin-Embedder-Policy "require-corp" env=NEED_HEADERS
+  Header always set Cross-Origin-Resource-Policy "cross-origin" env=NEED_HEADERS
+  Require all granted
+</IfModule>

@@ -5,6 +5,9 @@
     "test": "tests"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
     "@eslint/js": "^9.12.0",
     "@playwright/test": "^1.55.0",
     "@types/jest": "^27.4.0",
@@ -13,6 +16,8 @@
     "@types/selenium-webdriver": "^4.1.28",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "babel-jest": "^30.0.4",
+    "babel-loader": "^10.0.0",
     "browserstack-node-sdk": "latest",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.14.0",

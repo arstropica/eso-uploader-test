@@ -4909,7 +4909,6 @@ platforms:
     browserName: Safari
     browserVersion: latest
 
-parallels: 8
 buildName: Readiness Matrix
 projectName: Uploader Test
 # If your app is private/dev:
@@ -4919,6 +4918,6 @@ projectName: Uploader Test
 # Debug goodies
 consoleLogs: verbose
 networkLogs: true
-parallelsPerPlatform: 2
+parallelsPerPlatform: 4
 video: false
 accessibility: false

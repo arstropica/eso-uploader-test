@@ -1,11 +1,11 @@
-FROM node:20-bullseye
+FROM node:18.20.4-alpine3.20
 
 # Workdir
 WORKDIR /app
 
 # Install dependencies first (better layer caching)
 COPY package*.json ./
-RUN npm install --no-audit --no-fund
+RUN npm ci --no-audit --no-fund
 
 # Copy source (tests + config)
 COPY . .

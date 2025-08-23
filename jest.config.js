@@ -15,4 +15,11 @@ module.exports = {
   testRegex: ".*\\.spec\\.ts$",
   testPathIgnorePatterns: ["/node_modules/"],
   testTimeout: 60 * 1000,
+  maxWorkers: 1,
+  // keep default reporter + our throttling reporter
+  reporters: [
+    "default",
+    ["<rootDir>/shared/throttledReporter.js", { delayMs: 30000 }] // tweak as needed
+  ],
+
 };

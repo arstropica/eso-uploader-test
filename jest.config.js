@@ -13,6 +13,6 @@ module.exports = {
     "^.+\\.(t|j)s$": "ts-jest",
   },
   testRegex: ".*\\.spec\\.ts$",
-  testPathIgnorePatterns: ["/node_modules/", "/tests/readiness.playwright.spec.js"],
+  testPathIgnorePatterns: ["/node_modules/"],
   testTimeout: 60 * 1000,
 };
